@@ -1,0 +1,38 @@
+.spinner {
+    /* Your styling */
+    animation: spin 1s linear infinite; /* Required */
+    width: 80px;
+    height: 80px; 
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.country-card {
+    background-color: rgb(0, 140, 255);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 50px;
+    margin: 20px;
+}
+
+.border-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+    background-color: yellow;
+}
+
+.hidden {
+    display: none;
+}
